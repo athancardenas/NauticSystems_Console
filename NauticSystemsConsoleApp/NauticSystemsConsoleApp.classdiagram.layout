@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="NauticSystemsConsoleApp">
+  <logicalClassDesignerModelMoniker Id="8794bf00-35e8-4523-a3ab-6b9e7b050b53" />
+  <nestedChildShapes>
+    <classShape Id="a5226a7a-575f-4e15-bc46-ba6d18e5a23b" absoluteBounds="2, 1.25, 1.5, 1.2226562251647315" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="2c89c29f-b0b9-49ed-a6d6-c3d7fa20f039" LastKnownName="Ship" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="b9fbf082-917f-4737-87f1-c76407a00dc3" absoluteBounds="2.015, 1.6400000000000001, 1.4700000000000002, 0.52148435761531187" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="a29ac956-ad48-48d1-af02-54860371daea" absoluteBounds="2.015, 2.171484357615312, 1.4700000000000002, 0.20117186754941951" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="8794bf00-35e8-4523-a3ab-6b9e7b050b53" name="NauticSystemsConsoleApp" linkedPackageId="2ed78569-ac96-49e0-9d24-33c0f0e646ee" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="6449b449-48a5-4625-946f-50da2eb403c6">
+      <profileInstance Id="692f3eb2-bb70-41c8-a6ac-0283b0cbd2f0" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="b274082e-37e1-4026-961f-586c90980e38">
+      <profileInstance Id="b12a2961-f4fb-4227-b92b-8a63d6b0a5f6" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2c89c29f-b0b9-49ed-a6d6-c3d7fa20f039" name="Ship" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5bc5f331-999f-45f7-9a17-c1a8ca83312a" />
+        <ownedAttributesInternal>
+          <property Id="ad18c6b4-caf1-41a8-95d7-7b97b340b041" name="IMO" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ee3323f7-94ae-4aaf-b479-328fda507994" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="7593f740-ef26-46c7-bca0-99014369854f" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+          <property Id="da091d1a-6ec3-43ea-abef-75cd19a5b0f2" name="InboundFolderPath" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="bff37bd4-1ce7-4420-a10f-f72d03fd32db" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="cd40976f-f4b1-44ad-a35b-e1fd55cb1034" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="7593f740-ef26-46c7-bca0-99014369854f" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <referencedType Id="cd40976f-f4b1-44ad-a35b-e1fd55cb1034" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="2ed78569-ac96-49e0-9d24-33c0f0e646ee" name="NauticSystemsConsoleApp">
+    <elementDefinition Id="13d3cdfb-da0b-4de5-8460-d1f73d41f7e5" />
+  </package>
+</logicalClassDesignerModel>

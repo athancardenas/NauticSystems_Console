@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="NauticSystemsConsole.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NauticSystemsConsole_nsdlWebService_Lists" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://dms.angloeastern.com/_vti_bin/lists.asmx</Value>
+    </Setting>
+    <Setting Name="NauticSystemsConsole_nsdlWebService1_Copy" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://dms.angloeastern.com/_vti_bin/Copy.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
